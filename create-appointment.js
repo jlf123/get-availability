@@ -1,5 +1,9 @@
 var Acuity = require("acuityscheduling");
 var Moment = require("moment");
+const express = require('express')
+
+const app = express()
+const port = 3000
 
 var acuity = Acuity.basic({
   userId: 17838093,
@@ -43,7 +47,12 @@ const getAvailableTimes = async () => {
     );
     availableTimes.push(...times);
   }
-  console.log(availableTimes);
+  return availableTimes;
 };
 
-getAvailableTimes();
+app.get('/availability', async (req, res) => {
+  const availability = await getAvailableTimes();
+  res.json(availability)
+})
+
+app.listen(port, () => console.log(`Create-Appointment started on port: ${port}!`))
