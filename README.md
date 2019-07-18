@@ -2,7 +2,16 @@
 
 ## Setting up
 
-to setup the app run the following command in the terminal
+First clone the repository from git
+```
+git clone https://github.com/jlf123/get-availability.git
+```
+Then change the directory
+```
+cd get-availability
+```
+
+to install all the dependencies for the app run the following command in the terminal
 ```
 npm install
 ```
