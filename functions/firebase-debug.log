@@ -1,0 +1,91 @@
+[debug] [2019-07-19T22:06:43.492Z] ----------------------------------------------------------------------
+[debug] [2019-07-19T22:06:43.495Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-07-19T22:06:43.495Z] CLI Version:   7.0.2
+[debug] [2019-07-19T22:06:43.495Z] Platform:      darwin
+[debug] [2019-07-19T22:06:43.495Z] Node Version:  v8.16.0
+[debug] [2019-07-19T22:06:43.496Z] Time:          Fri Jul 19 2019 17:06:43 GMT-0500 (CDT)
+[debug] [2019-07-19T22:06:43.496Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-19T22:06:43.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-19T22:06:43.508Z] > authorizing via signed-in user
+[debug] [2019-07-19T22:06:43.508Z] [iam] checking project web-bot-c5009 for permissions ["firebase.projects.get"]
+[debug] [2019-07-19T22:06:43.511Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/web-bot-c5009:testIamPermissions  
+
+[debug] [2019-07-19T22:06:43.759Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-19T22:06:43.761Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/web-bot-c5009  
+ 
+[debug] [2019-07-19T22:06:43.944Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Merienne/get-availability'...
+[info] 
+[info] ✔  functions: Using node@8 from host.
+[debug] [2019-07-19T22:06:43.959Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/883700195235/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-19T22:06:43.960Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/883700195235:getServerAppConfig  
+ 
+[debug] [2019-07-19T22:06:44.124Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-07-19T22:06:44.149Z] Error: listen EADDRINUSE 127.0.0.1:5001
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1510:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:72:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-07-19T22:06:44.169Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/Merienne/get-availability/functions" for Cloud Functions...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: /Users/Merienne/get-availability/get-availability
+[info] ✔  hosting: Local server: http://localhost:5005
+[debug] [2019-07-19T22:07:25.371Z] ----------------------------------------------------------------------
+[debug] [2019-07-19T22:07:25.374Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-07-19T22:07:25.375Z] CLI Version:   7.0.2
+[debug] [2019-07-19T22:07:25.375Z] Platform:      darwin
+[debug] [2019-07-19T22:07:25.375Z] Node Version:  v8.16.0
+[debug] [2019-07-19T22:07:25.375Z] Time:          Fri Jul 19 2019 17:07:25 GMT-0500 (CDT)
+[debug] [2019-07-19T22:07:25.375Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-19T22:07:25.388Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-19T22:07:25.389Z] > authorizing via signed-in user
+[debug] [2019-07-19T22:07:25.389Z] [iam] checking project web-bot-c5009 for permissions ["firebase.projects.get"]
+[debug] [2019-07-19T22:07:25.391Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/web-bot-c5009:testIamPermissions  
+
+[debug] [2019-07-19T22:07:30.675Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-19T22:07:30.677Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/web-bot-c5009  
+ 
+[debug] [2019-07-19T22:07:33.870Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Merienne/get-availability'...
+[info] 
+[info] ✔  functions: Using node@8 from host.
+[debug] [2019-07-19T22:07:33.883Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/883700195235/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-19T22:07:33.885Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/883700195235:getServerAppConfig  
+ 
+[debug] [2019-07-19T22:07:34.110Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-07-19T22:07:34.128Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/Merienne/get-availability/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: /Users/Merienne/get-availability/get-availability
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-07-19T22:07:34.572Z] Functions runtime initialized.
+[debug] [2019-07-19T22:07:34.573Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-19T22:07:34.667Z] firebase-admin has been stubbed.
+[warn] ⚠  TypeError: _onRequestWithOpts is not a function
+    at Object.httpsProvider._onRequestWithOpts (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:278:24)
+    at Object.httpsProvider.onRequest (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:283:34)
+    at Object.<anonymous> (/Users/Merienne/get-availability/functions/index.js:10:31)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-07-19T22:11:16.726Z] File /Users/Merienne/get-availability/functions/package.json changed, reloading triggers
+[debug] [2019-07-19T22:11:16.826Z] File /Users/Merienne/get-availability/functions/package-lock.json changed, reloading triggers
+[debug] [2019-07-19T22:11:18.502Z] Functions runtime initialized.
+[debug] [2019-07-19T22:11:18.505Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-07-19T22:11:18.661Z] firebase-admin has been stubbed.
+[info] i  functions: HTTP trigger initialized at http://localhost:5001/web-bot-c5009/us-central1/app
