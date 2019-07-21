@@ -1,0 +1,12 @@
+{
+    "hosting": {
+        "public": "/Users/Merienne/get-availability/get-availability",
+        "rewrites": [{
+            "source": "/get-availability",
+            "run": {
+                "service_id": "/get-availability",
+                "region": "us-central1"
+            }
+        }]
+    }
+}
